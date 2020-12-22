@@ -9,7 +9,7 @@ This is the SideeX Recorder launcher developed based on electron, some key featu
 - Go to the [SideeX Launcher GitHub Repository Releases](https://github.com/SideeX/sideex-launcher/releases) and download the installer according to your OS.
     - Windows: `.exe` 
     - MacOS: `.dmg` 
-    - Linux: `.AppImage` or `.deb`, running the `.deb` file will let you install the application, while `.AppImage` will let you directly run the application
+    - Linux: `.AppImage`
 - Run the installer after the download is complete.
 
 For more information please visit https://hackmd.io/@sideex/launcher
