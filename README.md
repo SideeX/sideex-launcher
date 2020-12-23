@@ -12,4 +12,4 @@ This is the SideeX Recorder launcher developed based on electron, some key featu
     - Linux: `.AppImage`
 - Run the installer after the download is complete.
 
-For more information please visit https://hackmd.io/@sideex/launcher
+For more information please visit https://hackmd.io/@sideex/book/%2F%40sideex%2Flauncher
