@@ -5,13 +5,16 @@ on:
     branches:
       - main
 
-defaults:
-  run:
-    working-directory: ./website
+# defaults:
+#   run:
+#     working-directory: ./website
 
 jobs:
   build:
     runs-on: ubuntu-20.04
+    defaults:
+      run:
+        working-directory: ./website
     strategy:
       matrix:
         node-version: [16]
@@ -41,6 +44,9 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-20.04
+    defaults:
+      run:
+        working-directory: ./website
     if: github.ref == 'refs/heads/main'
 
     steps:
