@@ -1,0 +1,84 @@
+.startTestingDiv {
+    background: url("../img/startTestingLeaves.svg"), linear-gradient(225deg, rgba(244, 215, 34, 0.5), rgba(244, 208, 33, 0.55) 17%, rgba(243, 198, 30, 0.7) 47%, rgba(242, 159, 25, 0.93) 89%, #f29618);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    width: 100vw;
+    height: 100vh;
+    padding: 18vh 5vw 3vh;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .card {
+        width: 30vw;
+        max-width: 400px;
+        position: absolute;
+        padding: 0.8rem;
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 0;
+            height: 0;
+            border: 20px solid transparent;
+            border-bottom-color: white;
+            border-top: 0;
+            margin-left: -15px;
+            margin-top: -15px;
+        }
+
+        h5 {
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+        p {
+            font-size: 1rem;
+            margin: 0;
+        }
+        img {
+            height: 1em;
+            width: auto;
+            margin-bottom: 0.25em;
+        }
+    }
+
+    .step2 {
+        top: 20px;
+        left: 8vw;
+
+        &:after {
+            right: 20%;
+        }
+    }
+
+    .step1 {
+        top: 20px;
+        right: 40px;
+
+        &:after {
+            right: 30px;
+        }
+    }
+}
+$anchorColor: #418ece;
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a, .link-style {
+    color: $anchorColor;
+    opacity: 0.8;
+    &:hover {
+      color: $anchorColor;
+      opacity: 1;
+    }
+  }
+
+
+  
