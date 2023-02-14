@@ -12,7 +12,7 @@ const StartTesting: Component = () => {
             <img src={startTestingBird}></img>
             <div class="card step1">
                 <h5>Step 1.</h5>
-                <p>Click on the Extension Manager <img src={chromeExtensionManager}></img> and select SideeX Recorder 3 <img src={logo}></img>. </p>
+                <p>Click on the Extension Manager <img src={chromeExtensionManager}></img> and select Rapi Recorder <img src={logo}></img>. </p>
             </div>
             <div class="card step2">
                 <h5>Step 2.</h5>
